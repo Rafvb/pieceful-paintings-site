@@ -65,6 +65,11 @@ section.store-buttons {
     gap: 25px;
 }
 
+section.video {
+    display: flex;
+    justify-content: center;
+}
+
 section.screenshots {
     display: flex;
     flex-wrap: wrap;
