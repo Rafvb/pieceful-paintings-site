@@ -58,6 +58,36 @@ section {
     margin-bottom: 50px;
 }
 
+section.play {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+section.play a {
+    border: 1px solid black;
+    background-color: #C75050;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section.play a:hover {
+    background-color: #802929;
+}
+
+section.or {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
 section.store-buttons {
     display: flex;
     flex-wrap: wrap;
